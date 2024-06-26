@@ -9,18 +9,18 @@ Bu proje, elektrikli araçlar ve akıllı enerji yönetim sistemleri için test 
 1. **CodeGemma**:
    - Verilen kaynak kodu temel alarak tüm potansiyel ve yararlı test senaryolarını Brute Force Tekniği ile belirler ve listeler.
    - Brute Force Tekniği kullanılarak oluşturulan test senaryolarını üretir.
-   - Test senaryolarının maksimum sayıya ulaşıp ulaşmadığını ve bu test senaryolarının kod kapsamasının %100'e yakın olup olmadığını değerlendirir.
+   - Test senaryolarının maksimum sayıya ulaşıp ulaşmadığını ve dilsel anlamlılığı değerlendirir.
    - Gerekirse gerekli test senaryolarını oluşturur.
 
 2. **CodeLLaMa**:
    - Verilen kaynak kodu temel alarak tüm potansiyel ve yararlı test senaryolarını Brute Force Tekniği ile belirler ve listeler.
    - Brute Force Tekniği kullanılarak oluşturulan test senaryolarını üretir.
-   - Test senaryolarının maksimum sayıya ulaşıp ulaşmadığını ve bu test senaryolarının kod kapsamasının %100'e yakın olup olmadığını değerlendirir.
+   - Test senaryolarının maksimum sayıya ulaşıp ulaşmadığını ve dilsel anlamlılığı değerlendirir.
    - Gerekirse gerekli test senaryolarını oluşturur.
 
 3. **Değerlendirme Süreci - GPT-4o ve LLaMa3**:
    - CodeGemma ve CodeLLaMa tarafından oluşturulan test senaryoları karşılıklı olarak değerlendirilir.
-   - GPT-4o ve LLaMa3 modelleri, test senaryolarını test kapsamı ve test senaryolarının sayısı bazında değerlendirir ve 100 üzerinden bir puan verir.
+   - GPT-4o ve LLaMa3 modelleri, test senaryolarının sayısı ve dilsel anlamlılığı üzerinden değerlendirir ve 100 üzerinden bir puan verir.
 
 ## Dosya Yapısı
 
