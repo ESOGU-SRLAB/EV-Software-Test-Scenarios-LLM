@@ -18,29 +18,28 @@ Bu proje, elektrikli araçlar ve akıllı enerji yönetim sistemleri için test 
    - Test senaryolarının maksimum sayıya ulaşıp ulaşmadığını ve bu test senaryolarının kod kapsamasının %100'e yakın olup olmadığını değerlendirir.
    - Gerekirse gerekli test senaryolarını oluşturur.
 
-3. **Değerlendirme Süreci**:
+3. **Değerlendirme Süreci - GPT-4o ve LLaMa3**:
    - CodeGemma ve CodeLLaMa tarafından oluşturulan test senaryoları karşılıklı olarak değerlendirilir.
    - GPT-4o ve LLaMa3 modelleri, test senaryolarını test kapsamı ve test senaryolarının sayısı bazında değerlendirir ve 100 üzerinden bir puan verir.
 
 ## Dosya Yapısı
 
 - `tok_llm.py`: Projenin ana kod dosyası.
-- `tok_streamlit.py`: Proje için Streamlit arayüzünü içeren dosya.
+- `array_to_solution.py`: Proje için testlerin gerçekleştirildiği dosya.
 - `images/tok2024_structure.jpg`: Projenin yapısını gösteren görsel.
 
 ## Kurulum ve Çalıştırma
 
 1. Projeyi klonlayın:
    ```sh
-   git clone https://github.com/kullanici_adi/tok2024.git
+   git clone https://github.com/ESOGU-SRLAB/EV-Software-Test-Scenarios-LLM.git
    cd tok2024
 2. Gereklilikleri yükleyin:
    ```sh
    pip install -r requirements.txt
-3. Projeyi klonlayın:
+3. Projeyi çalıştırın:
    ```sh
    python tok_llm.py
-   python tok_streamlit.py
    ```
 
    
